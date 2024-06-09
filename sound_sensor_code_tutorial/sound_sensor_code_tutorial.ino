@@ -10,13 +10,15 @@
     5V, gnd and any digital I/O pin on the  on the arduino respectfully.
    -Connect the +ve end of an LED to any other digital pin and -ve to gnd of arduino
 
+   ##FUNCTION##
+   A program to switch on/off an LED every time you clap
 */
 
 //##CODE##
 #define soundPin 7      //You can change this to whatever pin you chose 
-#define ledPin 8 
+#define ledPin 8        //You can as well change this to be whatever pin you chose for the led
 int soundVal;
-int clapped = 1;       //You can as well change this to be whatever pin you chose for the led
+int clapped = 1;       //Setting variable that is going to track whether or not a clap has beem registered
 void setup() {
   pinMode(soundPin, INPUT);
   pinMode(ledPin, OUTPUT);
@@ -28,8 +30,8 @@ void loop() {
   soundVal = digitalRead(soundPin);
   Serial.println(clapped);
   if(soundVal ==1 ){
-    clapped++;
-    clapped = clapped%2;
+    clapped++;        
+    clapped = clapped%2; //This is done to keep it at either 0 or 1...every time you clap, the value increases to a maximum of 1 then to 0
     if(clapped%2 == 0){
       digitalWrite(ledPin, HIGH);
       delay(200);
