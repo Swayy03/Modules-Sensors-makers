@@ -1,0 +1,32 @@
+This document will contain most specifications for creating your own DIY_FLEX_SENSOR using cheap material. Credits to https://www.instructables.com/How-to-Make-FLEX-Sensor-at-Home-DIY-Flex-Sensor/
+For part(most) of this logic
+
+What You Need
+1. Cardboard(Book Cover hardness) 
+2. Aluminium foil or tin foil
+3. Pencil --preferrably of B series but doesn't matter though :)
+4. Office Glue
+5. Hot glue--Also optional as long as it binds things together
+6. 2 female end jumper wires --could M to F or F TO F -- could as well use male ended
+7. Sheet of plain paper(print paper)
+8. A multimeter(Optional)
+
+
+Procedure of making
+
+1. Cut the cardboard to size -15cm by 2cm --x2(2 pieces)
+2. Take a bigger roll of the aluminium foil and crample it, this will help make the flex sensor more sensitive and reactive
+3. Cut the crampled aluminium/tin foil to size -10cm by 1.5cm --x2 (2 pieces)
+4. Crample a larger piece of plain paper....this will help sensitivity as well.
+5. cut the plain paper to same size of the carboard or rather just bigger than the crampled aluminium foil. 
+6. Glue the aluminium foil pieces to the cardboard pieces and place them strategically in the middle.
+7. Cut the jumper wire to desirable size and glue the exposed wire ends to the different aluminium foil pieces.
+8. If you have a multimeter, measure the continuity of the aluminium foil to the other end of the wire that is not glued to the foil. I repeat!!! Do step 8 at least twice to prevent wastage of material
+	else: You will find out if everything if properly set up later > <
+9. Using the pencil, rub graphite all over the plain paper piece as if to color it. The more graphite on the better. If you have B series pencil, use that.If you don't...no worries
+10. Place the piece of graphited(sorry) paper in the middle of the two cardboard-foil pieces without gluing it as well
+11. Glue the carboard ends together making sure not to glue the piece of paper as well.
+12. Test....code coming later
+
+--I am personally not done with research on the best way using physics to optimize it. May drop a better DIY Flex sensor later..
+#########CHEERS######################################    END OF DOCUMENT     #################################################################
